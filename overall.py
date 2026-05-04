@@ -27,7 +27,7 @@ def main():
           miles = float(input("How many miles to drive?\n"))
           if car_id in cars:
             cars[car_id].drive(miles)
-            print("Mileage updated")
+            print("Mileage updated.")
             print(cars[car_id])
         elif choice == '4':
           car_id = input("Enter the car ID to paint:\n")

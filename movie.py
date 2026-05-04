@@ -18,6 +18,4 @@ if __name__ == "__main__":
     year = input("Enter the release year: ")
 # FREEZE CODE END
     
-    
-my_movie=Movie("Se7en", "David Fincher","1995")
-print(my_movie)
+
