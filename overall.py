@@ -17,7 +17,7 @@ def main():
           new_car=create_car_from_input()
           cars[new_car.car_id]=new_car
           print(new_car)
-          print("Car Added.")
+          print("Car added.")
 
         elif choice == '2':
           display_cars(cars)
