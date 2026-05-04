@@ -16,6 +16,8 @@ if __name__ == "__main__":
     title = input("Enter the movie title: ")
     director = input("Enter the director's name: ")
     year = input("Enter the release year: ")
+    movie = Movie(title, director, year)
+    print(movie) 
 # FREEZE CODE END
     
 
